@@ -144,7 +144,7 @@ export const Footer = () => {
       <div className="border-t border-background/10">
         <div className="container-full py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-background/30">
-            © {new Date().getFullYear()} Switch On. All rights reserved.
+            © {new Date().getFullYear()} Switch On. All rights reserved. · Built by <a href="https://amreltanany.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-background/60 transition-colors">Amr ElTanany</a>
           </p>
           <div className="flex gap-8">
             <a
